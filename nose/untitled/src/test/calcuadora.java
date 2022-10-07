@@ -26,6 +26,10 @@ public class calcuadora {
     public void porTest(){
         assertEquals(cals.por(2,3),6);
     }
+    @Test
+    public void cuaTest(){
+        assertEquals(cals.juan(1,2,1),-1,1);
+    }
 
 
 
