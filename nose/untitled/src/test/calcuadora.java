@@ -28,7 +28,7 @@ public class calcuadora {
     }
     @Test
     public void cuaTest(){
-        assertEquals(cals.juan(1,2,1),-1,1);
+        assertEquals(String.valueOf(new float[][]{cals.juan(1, 2, 1)}),1,1);
     }
 
 

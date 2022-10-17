@@ -3,13 +3,15 @@ package main;
 public class calcu {
 
 
-    public static float juan(float a, float b, float c) {
+    public static float[] juan(float a, float b, float c) {
         float b2 = b * b;
         float cuentaR = b2 - (4 * a * c);
         float raiz = (float) Math.sqrt(cuentaR);
 
-        float v = b2 + -raiz /a * 2;
-        return v;
+        float vp = ((-b) + raiz) /a * 2;
+        float vm = ((-b) - raiz) /a * 2;
+        float[] result= {vp, vm};
+        return result;
 
     }
 
@@ -26,5 +28,6 @@ public class calcu {
     public static int por(int num, int num2){
         return  num * num2;
     }
+
 
 }
