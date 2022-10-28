@@ -9,7 +9,9 @@ public class calcu {
         return num - num2;
     }
     public static int div(int num, int num2){
+        if(num2 != 0){
         return num / num2;
+        }
     }
     public static int por(int num, int num2){
         return  num * num2;
