@@ -44,22 +44,22 @@ public class calcuadora {
 
     @Test
     public void restarTestM() {
-        assertEquals(cals.resstar(1, 6), 0);
+        assertNotEquals(cals.resstar(1, 6), 0);
     }
 
     @Test
     public void divTestM() {
-        assertEquals(cals.div(444, 3), 1);
+        assertNotEquals(cals.div(444, 3), 1);
     }
 
     @Test
     public void porTestM() {
-        assertEquals(cals.por(1, 3), 6);
+        assertNotEquals(cals.por(1, 3), 6);
     }
 
     @Test
     public void cuaTestM() {
-        assertEquals(String.valueOf(new float[][]{cals.juan(1, 2, 1)}), 55, 4);
+        assertNotEquals(String.valueOf(new float[][]{cals.juan(1, 2, 1)}), 55, 4);
 
     }
 }
