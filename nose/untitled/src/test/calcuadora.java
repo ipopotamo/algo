@@ -22,7 +22,7 @@ public class calcuadora {
 
     @Test
     public void divTest() {
-        assertEquals(cals.div(3, 3), 1);
+        assertEquals(cals.div(3, 3),1, 1);
     }
 
     @Test
